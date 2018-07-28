@@ -1,0 +1,6 @@
+language: swift
+xcode_project: CIXcodeTests.xcodeproj # path to your xcodeproj folder
+xcode_scheme: CIXcodeTests
+os: osx
+install: 
+script: ./BuildTest.sh
