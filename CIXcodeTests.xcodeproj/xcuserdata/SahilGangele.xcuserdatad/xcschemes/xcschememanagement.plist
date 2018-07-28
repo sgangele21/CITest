@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CIXcodeTests.xcscheme</key>
+		<key>CIXcodeTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>764F70B8210CFFE40058D808</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>764F70D1210CFFFF0058D808</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
