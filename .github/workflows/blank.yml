@@ -1,0 +1,15 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Makes file available for executing
+      run: chmod 777 BuildTest.sh
+    - name: Run the build file
+      run: ./BuildTest.sh
